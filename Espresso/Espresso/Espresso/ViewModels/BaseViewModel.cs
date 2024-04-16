@@ -1,12 +1,10 @@
-﻿using System;
+﻿using Espresso.Models;
+using Espresso.Services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-
 using Xamarin.Forms;
-
-using Espresso.Models;
-using Espresso.Services;
 
 namespace Espresso.ViewModels
 {
@@ -29,7 +27,7 @@ namespace Espresso.ViewModels
         }
 
         protected bool SetProperty<T>(ref T backingStore, T value,
-            [CallerMemberName]string propertyName = "",
+            [CallerMemberName] string propertyName = "",
             Action onChanged = null)
         {
             if (EqualityComparer<T>.Default.Equals(backingStore, value))

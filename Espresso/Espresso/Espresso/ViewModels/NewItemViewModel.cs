@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Espresso.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
-using Espresso.Models;
 using Xamarin.Forms;
 
 namespace Espresso.ViewModels
@@ -16,7 +16,7 @@ namespace Espresso.ViewModels
         {
             SaveCommand = new Command(OnSave, ValidateSave);
             CancelCommand = new Command(OnCancel);
-            this.PropertyChanged += 
+            this.PropertyChanged +=
                 (_, __) => SaveCommand.ChangeCanExecute();
         }
 
@@ -55,7 +55,7 @@ namespace Espresso.ViewModels
                 Text = Text,
                 Description = Description
             };
-            
+
             await DataStore.AddItemAsync(newItem);
 
             // This will pop the current page off the navigation stack

@@ -1,15 +1,15 @@
-﻿using System;
+﻿using Espresso.Services;
+using Espresso.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Espresso.Services;
-using Espresso.Views;
 
 namespace Espresso
 {
     public partial class App : Application
     {
 
-        public App ()
+        public App()
         {
             InitializeComponent();
 
@@ -17,15 +17,15 @@ namespace Espresso
             MainPage = new AppShell();
         }
 
-        protected override void OnStart ()
+        protected override void OnStart()
         {
         }
 
-        protected override void OnSleep ()
+        protected override void OnSleep()
         {
         }
 
-        protected override void OnResume ()
+        protected override void OnResume()
         {
         }
     }

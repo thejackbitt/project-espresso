@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Espresso.ViewModels;
+﻿using Espresso.ViewModels;
 using Espresso.Views;
+using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace Espresso

@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="65BB6C63-B57E-4E0A-B41B-DC1716C5ED15"
-    Publisher="CN=714BFD17-F3B0-4465-87E1-AC455C97989B"
+    Name="B738BF5C-8DB2-43DC-9811-4C893908D50C"
+    Publisher="CN=F71274CF-1F32-4D41-9EAF-232A5565E6B0"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Espresso.UWP</DisplayName>
-    <PublisherDisplayName>714BFD17-F3B0-4465-87E1-AC455C97989B</PublisherDisplayName>
+    <PublisherDisplayName>F71274CF-1F32-4D41-9EAF-232A5565E6B0</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

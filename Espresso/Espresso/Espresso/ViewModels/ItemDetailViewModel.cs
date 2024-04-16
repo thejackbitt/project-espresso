@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Espresso.Models;
+using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using Espresso.Models;
 using Xamarin.Forms;
 
 namespace Espresso.ViewModels
@@ -37,7 +37,7 @@ namespace Espresso.ViewModels
                 itemId = value;
                 LoadItemId(value);
             }
-        }        
+        }
 
         public async void LoadItemId(string itemId)
         {

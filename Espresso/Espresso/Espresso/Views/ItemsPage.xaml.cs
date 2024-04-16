@@ -1,15 +1,14 @@
-﻿using System;
-using System.ComponentModel;
+﻿using Espresso.Models;
+using Espresso.ViewModels;
+using Espresso.Views;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
-using Espresso.Models;
-using Espresso.Views;
-using Espresso.ViewModels;
 
 namespace Espresso.Views
 {

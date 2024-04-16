@@ -1,12 +1,10 @@
-﻿using System;
+﻿using Espresso.Models;
+using Espresso.Views;
+using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
-
-using Espresso.Models;
-using Espresso.Views;
 
 namespace Espresso.ViewModels
 {
@@ -16,7 +14,7 @@ namespace Espresso.ViewModels
 
         public ObservableCollection<Item> Items { get; }
         public Command LoadItemsCommand { get; }
-        public Command AddItemCommand { get;  }
+        public Command AddItemCommand { get; }
         public Command<Item> ItemTapped { get; }
 
         public ItemsViewModel()
